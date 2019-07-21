@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(red, yellow);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#gallery {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#contact {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#aboutme {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#name {
+    color: whitesmoke;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#infobox {
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+.contact {
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 1px;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-rss {
+    background: #ff6600;
+    color: white;
+  }

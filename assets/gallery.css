@@ -1,0 +1,155 @@
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, red , yellow);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+#home {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#gallery {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#contact {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#aboutme {
+    background-color: whitesmoke;
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 30px;
+    transform: skew(20deg);
+}
+
+#name {
+    color: whitesmoke;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#picBox{
+    background-color: whitesmoke;
+    width: 60%;
+}
+.image{
+    height: 200px;
+}
+#picRows {
+    text-align: center;
+    margin: 50px;
+}
+#projects {
+    margin: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 1px;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+.bigRow{
+    padding: 0px;
+    width: 289px;
+}
+.card{
+    margin: 10px;
+}
+.bt {
+    background-color: #b30000;
+    border-color: #b30000;
+}
+.bt span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.bt span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.bt:hover span {
+    padding-right: 25px;
+}
+
+.bt:hover span:after {
+    opacity: 1;
+    right: 0;
+}
